@@ -2,9 +2,8 @@ import telebot
 import internetarchive
 from telebot import types
 import requests
-
-bot = telebot.TeleBot('6878549381:AAGBMbUat0QKE09ou4LqKEXaUmbp9kyV1_w')
-
+import os
+bot = telebot.TeleBot(os.getenv('BOT_TOKEN'))
 @bot.message_handler(commands=['start'])
 def start(message):
     try:
