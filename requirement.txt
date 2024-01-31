@@ -1,4 +1,4 @@
-telebot==0..4
+telebot==0.4
 internetarchive==20.0
 
 requests==2.2.1
