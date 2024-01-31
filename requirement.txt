@@ -1,5 +1,5 @@
 telebot==0..4
 internetarchive==20.0
-python-telegram-==13.2
+
 requests==2.2.1
 datetime
