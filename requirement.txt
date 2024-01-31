@@ -1,5 +1,6 @@
 telebot==0.0.5
 internetarchive==3.6.0
+python-telegram-bot
 
 requests
 datetime
